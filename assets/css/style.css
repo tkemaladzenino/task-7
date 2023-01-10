@@ -4,8 +4,9 @@
 }
 
 body {
-              width: 1440px;
-              height: 1024px;
+              display: flex;
+              justify-content: center;
+
               background-color: #ffffff;
 }
 
@@ -22,11 +23,10 @@ body {
 
 }
 
-.tr1>th:nth-child(4) {
-              text-align: center;
-}
 
-.searh {
+
+.search {
+              font-family: FiraGO-Regular;
               margin-top: 35px;
               margin-bottom: 30px;
 
@@ -35,7 +35,7 @@ body {
               left: 109px;
               top: 35px;
 
-              font-family: FiraGO-Regular;
+
               font-style: normal;
               font-weight: 700;
               font-size: 24px;
@@ -53,11 +53,22 @@ body {
               border-spacing: 0px;
 }
 
+
 .tr1 {
               width: 1223px;
               height: 65px;
               background: #FFFFFF;
               border: 1px solid #EDEDED;
+}
+
+
+
+.tr1>th:nth-child(1) {
+              padding-left: 15px;
+}
+
+.tr1>th:nth-child(4) {
+              text-align: center;
 }
 
 .tr2 {
@@ -78,15 +89,43 @@ body {
               border-radius: 10px;
 }
 
+.tr2>td:nth-child(1) {
+
+              padding-left: 25px;
+              padding-right: 47px;
+              width: 359px;
+
+}
+
+.tr2>td:nth-child(2) {
+              padding-right: 50px;
+
+              width: 266px;
+}
+
+.tr2>td:nth-child(3) {
+
+
+              padding-right: 79px;
+              width: 141px;
+              width: 217px;
+
+}
+
+
 
 .button1 {
+              font-family: FiraGO-Regular;
               width: 141px;
               height: 50px;
+
+              margin-right: 39px;
+
 
               border: none;
               background: #FFDD04;
               border-radius: 10px;
-              font-family: 'FiraGO';
+
               font-style: normal;
               font-weight: 700;
               font-size: 15px;
@@ -145,7 +184,7 @@ body {
 }
 
 th {
-              padding: 15px;
+
               text-align: left;
               font-family: FiraGO-Regular;
               font-style: normal;
@@ -157,7 +196,7 @@ th {
 }
 
 td {
-              padding: 15px;
+
               text-align: left;
               font-family: FiraGO-Regular;
               font-style: normal;
